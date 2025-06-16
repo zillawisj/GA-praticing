@@ -125,3 +125,5 @@ firebase-exports
 
 # Ignore test coverage data
 coverage/lcov.info
+
+android\app\google-services.json
