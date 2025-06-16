@@ -1,44 +1,29 @@
-# Flutter eCommerce App
+# GA Practicing – Flutter eCommerce App (Customized Version)
 
-This is the official Flutter Project for this course:
+This is a customized version of the [Flutter eCommerce App](https://github.com/bizz84/complete-flutter-course) originally developed by [Andrea Bizzotto](https://codewithandrea.com).
 
-- [Flutter Foundations](https://codewithandrea.com/courses/flutter-foundations/)
+The purpose of this fork is to **practice and integrate Google Analytics 4 (GA4)** within a Flutter app for learning and experimentation.
 
-This will include a full-stack eCommerce app using Flutter & Firebase:
+---
 
-![eCommerce App Preview](/.github/images/ecommerce-app-preview.png)
+## 🛠️ What’s Modified in This Fork?
 
-A Flutter web preview of the app can be found here:
+- ✅ Integrated Google Analytics 4 (GA4) with Firebase
+- ✅ Tracked screen views and user navigation using a custom `ScreenAnalyticsManager`
+- ✅ Logged custom events: `add_to_cart`, `remove_from_cart`, `login`, `logout`, and `checkout`
+- ✅ Measured screen duration using `engagement_time_msec`
+- ✅ Organized event structure for Firebase Analytics DebugView
+- ✅ Practiced working with GA4 standard events and custom user interactions
+- 🚧 More GA4 enhancements and analytics best practices in progress...
 
-- [Flutter Web Demo](https://my-shop-ecommerce-stg.web.app/)
+---
 
-## Project Setup
+## 🚀 Getting Started
 
-To clone the repo for the first time and open it in VSCode, run this:
+To run this project on your local machine:
 
-```
-git clone https://github.com/bizz84/complete-flutter-course.git
-cd complete-flutter-course
-code .
-```
+### 1. Clone the repository
 
-This will checkout the `main` branch which contains the **latest code**.
-
-But at various points in the course, I'll ask you to checkout a **specific branch name**, so you can follow along with the right code, at the right time.
-
-And to prevent any conflicts, you may need to reset your local changes:
-
-```
-git reset --hard HEAD
-git checkout <branch-name>
-```
-
-## Troubleshooting
-
-If the course project doesn't compile or run for you, there are a number of things to look out for.
-
-I'm keeping a list of all the FAQs here:
-
-- [List of Common Problems and Solutions](https://pro.codewithandrea.com/flutter-foundations/a1-common-problems/a-intro)
-
-### [LICENSE: MIT](../LICENSE.md)
+```bash
+git clone https://github.com/zillawisj/GA-practicing.git
+cd GA-practicing
