@@ -27,3 +27,5 @@ To run this project on your local machine:
 ```bash
 git clone https://github.com/zillawisj/GA-practicing.git
 cd GA-practicing
+flutter pub get
+flutter run
